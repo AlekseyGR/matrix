@@ -7,9 +7,8 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+# Ignore database config
+config/database.yml
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -19,3 +18,14 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore other environments
+.env
+.env.*
+
+# Ignore swap files
+*.swp
+*.swo
+
+# Ignore ctags file
+tags
