@@ -19,6 +19,8 @@ gem 'jbuilder', '~> 2.5'     # Build JSON APIs with ease. Read more: https://git
 gem 'grape'
 gem 'grape-entity'
 
+gem 'factory_girl_rails'
+
 group :development, :test do
   gem 'pry-byebug'           # Use by adding binding.pry in code to debug
   gem 'pry-rails'
